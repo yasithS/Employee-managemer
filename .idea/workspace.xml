@@ -5,8 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="aadf24d3-49d5-457c-a4ea-b426cf2fba70" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/src/com/yasith/emp/EmployeeDaoImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/yasith/emp/EmployeeDaoImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/yasith/emp/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/yasith/emp/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Employee-Manager.iml" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,8 +50,9 @@
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
     "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "preferences.lookFeel",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -72,7 +72,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1731415510157</updated>
-      <workItem from="1731415511239" duration="4969000" />
+      <workItem from="1731415511239" duration="5285000" />
     </task>
     <servers />
   </component>
