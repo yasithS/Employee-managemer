@@ -63,6 +63,26 @@ public class EmployeeDaoImpl implements EmployeeDao{
 
     @Override
     public void showEmployee(int id) {
+        con = DBConnection.createDBConnection();
+        String query = "select * from employee where id="+id;
+        try{
+            Statement stmt = con.createStatement();
+            ResultSet resultSet = stmt.executeQuery(query);
+            System.out.format("%s\t\t\t%s\t%s\t\t%s\n",
+                    "ID", "Name", "Salary", "Age");
+            System.out.println("-----------------------------------");
+            while(resultSet.next()){
+                System.out.format("%d\t%s\t%.2f\t%d\n",
+                        resultSet.getInt(1),
+                        resultSet.getString(2),
+                        resultSet.getDouble(3),
+                        resultSet.getInt(4));
+            }
+
+        }catch (Exception e) {
+            e.printStackTrace();
+        }
+
 
     }
 

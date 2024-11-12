@@ -46,6 +46,13 @@ public class Main {
                     System.out.println("Showing all Employees");
                     employeeDao.showAllEmployee();
                     break;
+                case 3:
+                    System.out.println("Enter the Employee Id:");
+                    int empId = scan.nextInt();
+                    employeeDao.showEmployee(empId);
+                    break;
+                case 4:
+                    System.out.println("Enter the Employee id:");
                 case 6:
                     System.out.println("Thank you....");
                     System.exit(0);
