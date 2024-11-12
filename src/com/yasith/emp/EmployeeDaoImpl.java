@@ -87,7 +87,21 @@ public class EmployeeDaoImpl implements EmployeeDao{
     }
 
     @Override
-    public void updateEmployee(int id) {
+    public void updateEmployee(int id, String name) {
+        con = DBConnection.createDBConnection();
+        String query = "update employee set name=? where id=?";
+        try {
+            PreparedStatement pstm = con.prepareStatement(query);
+            pstm.setString(1, name);
+            pstm.setInt(2, id);
+            int count = pstm.executeUpdate();
+            if(count != 0){
+                System.out.println("Employee has been updated");
+            }
+        }catch (Exception e) {
+            e.printStackTrace();
+        }
+
 
     }
 

@@ -53,6 +53,11 @@ public class Main {
                     break;
                 case 4:
                     System.out.println("Enter the Employee id:");
+                    int empUpdateId = scan.nextInt();
+                    System.out.println("Enter the new name: ");
+                    String newName = scan.next();
+                    employeeDao.updateEmployee(empUpdateId, newName);
+                    break;
                 case 6:
                     System.out.println("Thank you....");
                     System.exit(0);
