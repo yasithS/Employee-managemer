@@ -1,5 +1,3 @@
-package com.yasith.emp;
-
 import java.sql.Connection;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
@@ -26,8 +24,6 @@ public class EmployeeDaoImpl implements EmployeeDao{
        }catch (Exception e) {
            e.printStackTrace();
        }
-
-
 
     }
 
@@ -107,6 +103,18 @@ public class EmployeeDaoImpl implements EmployeeDao{
 
     @Override
     public void deleteEmployee(int id) {
+        con = DBConnection.createDBConnection();
+        String query = "delete from employee where id=?";
+        try{
+            PreparedStatement pstm = con.prepareStatement(query);
+            pstm.setInt(1, id);
+            int cnt = pstm.executeUpdate();
+            if(cnt != 0){
+                System.out.println("Employee has been deleted");
+            }
+        }catch (Exception e) {
+            e.printStackTrace();
+        }
 
     }
 }

@@ -1,5 +1,3 @@
-package com.yasith.emp;
-
 public class Employee {
 
     private int id;

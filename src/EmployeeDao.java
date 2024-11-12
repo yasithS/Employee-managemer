@@ -1,5 +1,3 @@
-package com.yasith.emp;
-
 public interface EmployeeDao {
 
     //create employee

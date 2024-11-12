@@ -5,11 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="aadf24d3-49d5-457c-a4ea-b426cf2fba70" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Employee-manager-cli/com/yasith/emp/EmployeeDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Employee-manager-cli/com/yasith/emp/EmployeeDao.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Employee-manager-cli/com/yasith/emp/EmployeeDaoImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Employee-manager-cli/com/yasith/emp/EmployeeDaoImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Employee-manager-cli/com/yasith/emp/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Employee-manager-cli/com/yasith/emp/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/yasith/emp/EmployeeDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/yasith/emp/EmployeeDao.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/yasith/emp/EmployeeDaoImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/yasith/emp/EmployeeDaoImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/yasith/emp/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/yasith/emp/Main.java" afterDir="false" />
     </list>
@@ -77,7 +72,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1731415510157</updated>
-      <workItem from="1731415511239" duration="4655000" />
+      <workItem from="1731415511239" duration="4969000" />
     </task>
     <servers />
   </component>
